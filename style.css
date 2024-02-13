@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+}
+
+.sthalf,
+.ndhalf {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    border-radius: 0;
+}
+
+.sthalf {
+    top: 0;
+    background-color: rgb(243, 9, 9);
+}
+
+.ndhalf {
+    bottom: 0;
+    background-color: rgb(3, 19, 250);
+}
